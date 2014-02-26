@@ -1,9 +1,9 @@
 
 # Main files #
 ######################
-.sass-cache
-node_modules
-components
+.sass-cache/
+node_modules/
+components/
 
 # OS generated files #
 ######################
