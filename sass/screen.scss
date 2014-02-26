@@ -1,0 +1,39 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/css3";
+
+body{
+	background-color: #3a3a3a;
+	background-image: url(../images/bg.png);
+	background-repeat: repeat;
+
+	textarea{
+		border: 0;
+		background-color: #000;
+		margin: 0;
+		padding: 20px;
+		font-size: 1em;
+		margin: 20px auto 0 auto;
+		display: block;
+		color: #31a6cf;
+	}
+	input{
+		padding: 20px;
+		font-size: 1em;
+		border: 0;
+		background-color: #31a6cf;
+		color: #FFF;
+		cursor: pointer;
+		margin: 0 auto;
+		display: block;
+
+		&:hover{
+			background-color: #FFF;
+			color: #31a6cf;
+		}
+	}
+}

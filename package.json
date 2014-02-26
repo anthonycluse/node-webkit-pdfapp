@@ -1,0 +1,13 @@
+{
+  "name": "Labo-Project",
+  "main": "index.html",
+  "window": {
+  	"toolbar": false,
+  	"frame": false,
+    "width": 400,
+    "height": 350
+  },
+  "dependencies": {
+    "pdfkit": "~0.4.3"
+  }
+}
